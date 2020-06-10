@@ -8,6 +8,11 @@ export const config: Config = {
   onPrepare: () => {
     reporter();
     browser.ignoreSynchronization = true;
-    browser.waitForAngularEnabled(false);
+  },
+  capabilities: {
+    browserName: 'chrome',
+    chromeOptions: {
+      args: ['--headless', '--disable-gpu']
+    }
   }
 };
