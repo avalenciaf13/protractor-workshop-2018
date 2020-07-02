@@ -28,6 +28,7 @@
   },
   "homepage": "https://github.com/avalenciaf13/protractor-workshop-2018#readme",
   "dependencies": {
+    "@types/jquery": "^3.5.0",
     "protractor": "^7.0.0"
   },
   "devDependencies": {
